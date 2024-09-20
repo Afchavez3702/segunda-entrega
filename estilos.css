@@ -1,0 +1,117 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100%;
+  height: auto;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav{
+  width: 100%;
+  height: 4em;
+  background-color: rgb(248, 241, 236);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 3px;
+  position: fixed;
+
+}
+.logo{
+  width: 3em;
+  height: 3em;
+  
+}
+.logo img{
+  width: 100%;
+  border-radius: 100%;
+}
+
+ul{
+  width: 85%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+li{
+  list-style: none;  
+  width: 6em;
+  height: 2em;
+}
+a{
+  text-decoration: none;
+  color: rgba(212, 95, 12, 0.833);
+}
+li a:hover{
+  text-decoration: underline rgba(212, 95, 12, 0.833) ;
+}
+header{
+  width: 100%;
+  height: 100vh;
+  background:url(./surces/logo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.encabezado{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(165, 42, 42, 0.334);
+  text-align: center;
+  padding-top: 15em;
+  color: aliceblue;
+}
+h1{
+  font-size: 52px;
+}
+.encabezado h2{
+  font-size: 32px;
+}
+.encabezado h3{
+  font-size: 28px;
+  font-weight: 400;
+}
+.btn-encabezado{
+  width: 7em;
+  height: 4em;
+  padding:1px ;
+  font-size: 20px;
+  background-color: rgb(255, 179, 0);
+  border: none;
+  border-radius: 15px;
+}
+.btn-encabezado:hover{
+  background-color: rgb(255, 208, 0);
+}
+
+section{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+#nosotros{
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 3em;
+}
+section h3{
+  font-size: 27px;
+  font-weight: 200;
+  color: chocolate;
+}
+p{
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+}
+

@@ -11,30 +11,33 @@
     <!-- link favicon -->
     <link rel="shortcut icon" href="./surces/favicon.ico" type="image/x-icon">
     <!---link hoja de estilos propia-->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="estilos.css">
     
     <title>Pan Dorado</title>
+  
 </head>
 <body>
   <nav>
-    <div>
-      <img src="./surces/favicon.ico" width="50px" alt="">
+    <div class="logo">
+      <a href="index.html"><img src="./surces/favicon.ico" alt="Logo Pan Dorado"></a>
     </div>
     <ul>
-      <li><a href="./surces/ejemplo3.txt" target="_blank">Descarga imagen</a></li>
-      <li><a href="#">Nosotros</a></li>
-      <li><a href="#">Productos</a></li>
-      <li><a href="#">Contacto</a></li>
+      <li><a href="#encabezado" >Inicio</a></li>
+      <li><a href="#nosotros">Nosotros</a></li>
+      <li><a href="#productos">Productos</a></li>
+      <li><a href="#contacto">Contacto</a></li>
     </ul>
   </nav>
   <header>
-    <h1>Panadería Pan Dorado</h1>
-    <h2>Bienvenidos</h2>
-    <h3><i>"Sabores de nuestra tierra"</i></h3>
-    <button>Llámanos ya</button>   
+    <div class="encabezado" id="encabezado">
+      <h1>Panadería Pan Dorado</h1>
+      <h2>Bienvenidos</h2>
+      <h3><i>"Sabores de nuestra tierra"</i></h3>
+      <button class="btn-encabezado">Llámanos ya</button>
+    </div>
   </header>
   <section>
-    <div>
+    <div id="nosotros" >
       <h3>Quienes somos</h3>
       <p>Constituida en 1995, la panaderia Pan Dorado se especializa en la 
         producción y comercialización de productos alimenticios de panaderia, 
@@ -66,8 +69,8 @@
     <div>
       <h4>Visítanos</h4>
 
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.536050737615!2d-74.12161792625069!3d4.676465895298439!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9b7cbd8270f1%3A0xd2486b9981691167!2zQWMuIDI2ICM2NSwgQm9nb3TDoQ!5e0!3m2!1ses!2sco!4v1726710296786!5m2!1ses!2sco" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
+      <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.536050737615!2d-74.12161792625069!3d4.676465895298439!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9b7cbd8270f1%3A0xd2486b9981691167!2zQWMuIDI2ICM2NSwgQm9nb3TDoQ!5e0!3m2!1ses!2sco!4v1726710296786!5m2!1ses!2sco"  ></iframe> -->
+    </div>style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     <p>Diseñado y desarrollado por Andrés Chávez &copy; 2024</p>
   </footer>
     
