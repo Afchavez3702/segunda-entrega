@@ -12,7 +12,8 @@
     <link rel="shortcut icon" href="./surces/favicon.ico" type="image/x-icon">
     <!---link hoja de estilos propia-->
     <link rel="stylesheet" href="estilos.css">
-    
+    <!---Link iconos de google-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>Pan Dorado</title>
   
 </head>
@@ -37,6 +38,12 @@
     </div>
   </header>
   <section>
+    <div class="boton-chat">
+      <button class="btn-chat">
+        <span class="material-symbols-outlined">
+          stream_apps
+          </span> chat</button>
+    </div>
     <div id="nosotros" >
       <h3>Quienes somos</h3>
       <p>Constituida en 1995, la panaderia Pan Dorado se especializa en la 
@@ -46,31 +53,95 @@
       <h3>Visión</h3>
       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo commodi quisquam sequi corrupti, eligendi suscipit cumque nobis consectetur tempora quis id quas numquam? Unde, ipsa eos iste pariatur perferendis deleniti.</p>
     </div>
-    <div>
-      <div>
-        <h4>Panaderia</h4>
-        <img src="./surces/logo.jpg" alt="Imagen de pastel de coco " width="20%" >
-
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto maxime temporibus tempora maiores et similique quod officia amet! Recusandae nisi quas eius. Eius, a ipsum ab excepturi reprehenderit laboriosam sint.</p>
+    <div id="productos" class="productos">
+      <h3>Catálogo</h3><br>
+      <p>Disfruta del delicioso sabor de nuestros productos de panaderia y reposteria elaborados artesanalmente</p>
+      <div class="catalogo">
+        <div class="item">
+          <div class="producto-img">
+            <img src="https://img.freepik.com/free-photo/croissants-wooden-cutting-board_1150-28480.jpg?t=st=1726878026~exp=1726881626~hmac=b9b0ba204bac603f60ce977611ad5eb832cc67d9d650cd06deafbf04d72ddda2&w=740" alt="Croisant tradicional">
+          </div>
+          <div class="producto-descripcion">
+            <h4>$2500 </h4>
+            <p><b>Croisant tradicional.</b></p>
+            <p>Relleno de queso parmesano y horneado al horno de leña</p>
+            
+          </div>
+          <button class="btn-producto"><span class="material-symbols-outlined">
+            shopping_bag
+            </span>Comprar</button>
+          
+        </div>
+        <div class="item">
+          <div class="producto-img">
+            <img src="https://img.freepik.com/free-photo/side-view-croissant-decorated-with-chocolate-wooden-board_140725-10171.jpg?t=st=1726877949~exp=1726881549~hmac=f1a9c716a05ca1b50dab6cc3d572fab420c477d6383dac9884ec8ee9773e5773&w=740" alt="Croisant de Nutella">
+          </div>
+          <div class="producto-descripcion">
+            <h4>$2800 </h4>
+            <p><b>Croisant de nutela</b></p>
+            <p>Relleno de queso parmesano y nutella</p>
+            
+          </div>
+          <button class="btn-producto"><span class="material-symbols-outlined">
+            shopping_bag
+            </span>Comprar</button>
+        </div>
+       
+        <div class="item">
+          <div class="producto-img">
+            <img src="https://img.freepik.com/free-photo/delicious-cookie-with-coconut-powder-wooden-background_181624-25074.jpg?t=st=1726877343~exp=1726880943~hmac=9857a9080103b7ff50f0e15997397d19474851256995a82268cb298e7143d4dc&w=740" alt="Croisant de Nutella">
+          
+          </div>
+          <div class="producto-descripcion">
+            <h4>$700 </h4>
+            <p><b>Pan de coco</b></p>
+            <p>Horneado en leña, con relleno de queso parmesano y trozos de coco rallado</p>
+          
+          </div>
+          <button class="btn-producto"><span class="material-symbols-outlined">
+            shopping_bag
+          </span>Comprar</button>
+        </div>
       </div>
     </div>
-    <div>
-      <iframe width="30%" src="https://www.youtube.com/embed/nEPMpwefI-s?si=YGH-6UWdl6m6jDan" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <div id="contacto">
+      <form action="" method="post">
+        <div class="form-titulo">
+          <h3>Escribenos</h3>
+        </div>
+        <div class="input">
+          <input type="text" placeholder="nombre">
+        </div>
+        <div class="input">
+          <input type="text" placeholder="Asunto">
+        </div>
+        <div class="input-text">
+          <textarea cols="1" id="" placeholder="Escribe aqui tu mensaje"></textarea>
+
+        </div>
+        <div class="input">
+          <button class="btn-submit" type="submit">Enviar</button>
+
+        </div>
+
+      </form>
+      
+
     </div>
 
 
   </section>
   <footer>
-    <div>
+    <div class="pie-de-pagina">
       <h4>Panaderia Pan Dorado</h4>
       <p>AC 26 #68F-105</p>
       <p>Llámanos al +57 3245678906</p>
     </div>
-    <div>
+    <div class="copyright">
       <h4>Visítanos</h4>
 
-      <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.536050737615!2d-74.12161792625069!3d4.676465895298439!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9b7cbd8270f1%3A0xd2486b9981691167!2zQWMuIDI2ICM2NSwgQm9nb3TDoQ!5e0!3m2!1ses!2sco!4v1726710296786!5m2!1ses!2sco"  ></iframe> -->
-    </div>style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.536050737615!2d-74.12161792625069!3d4.676465895298439!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9b7cbd8270f1%3A0xd2486b9981691167!2zQWMuIDI2ICM2NSwgQm9nb3TDoQ!5e0!3m2!1ses!2sco!4v1726710296786!5m2!1ses!2sco"  ></iframe>
+   
     <p>Diseñado y desarrollado por Andrés Chávez &copy; 2024</p>
   </footer>
     
