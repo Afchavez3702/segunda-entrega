@@ -282,3 +282,12 @@ footer h4{
   background-color: rgb(35, 35, 49);
   color: #fff;
 }
+
+.dark{
+  background-color: rgb(45, 75, 76);
+  color: #fff;
+}
+.enlace-oscuro{
+  color: #fff;
+  text-decoration: none;
+}
