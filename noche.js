@@ -18,3 +18,8 @@ alert(cokies);
 
 let tratamientoInfo="La información recopilada en esta página, no será compartida con terceros. Solo se usará para contactarnos contigo";
 alert(tratamientoInfo);
+
+function confirmacion(){
+    alert("Su mensaje ha sido enviado. Pronto nos comunicaremos contigo");
+    header.location (index.html);
+}
